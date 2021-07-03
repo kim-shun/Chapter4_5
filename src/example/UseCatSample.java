@@ -7,6 +7,13 @@ public class UseCatSample {
 		Cat tama = new Cat();
 		tama.eat();
 		tama.playToy("ひも");
+		
+		boolean h = tama.isHungry();
+		if (h == true) {
+			System.out.println("お腹がすいてるにゃー！");
+		} else {
+			System.out.println("お腹はすいてないにゃー！");
+		}
 	}
 
 }
