@@ -1,5 +1,7 @@
 package example2;
 
+import example.Cat;
+
 public class PublicAccessSample {
 
 	public static void main(String[] args) {
