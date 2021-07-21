@@ -8,9 +8,11 @@ public class PublicAccessSample {
 		// TODO 自動生成されたメソッド・スタブ
 		Cat tama = new Cat();
 		tama.setName("タマ");
-		System.out.println(tama.getName());
 		tama.setAge(3);
-		System.out.println(tama.getAge());
+		
+		tama.eat();
+		tama.playToy("ボール");
+		tama.introduceMyself();
 
 	}
 
