@@ -15,6 +15,12 @@ public class Cat {
 		hungry = false;
 	}
 	
+	public void eat(String food) {
+		printMessage(food + "を食べるよ！おいしいにゃー");
+		printMessage("お腹が一杯になったにゃー");
+		hungry = false;
+	}
+	
 	public boolean isHungry() {
 		return true;
 	}
@@ -27,6 +33,12 @@ public class Cat {
 	
 	public void setName(String catName) {
 		name = catName;
+	}
+	
+	public void playToy() {
+		printMessage("おもちゃで遊ぶよ。楽しいにゃー");
+		printMessage("遊んでお腹が減ったにゃー");
+		hungry = true;
 	}
 	
 	public String getName() {
