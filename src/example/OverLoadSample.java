@@ -12,11 +12,11 @@ public class OverLoadSample {
 		tama.eat();
 		
 		System.out.println();
-		System.out.println("--- tama.eatを呼び出す ---");
+		System.out.println("--- tama.eat(\"贅沢なキャットフード\")を呼び出す ---");
 		tama.eat("贅沢なキャットフード");
 		
 		System.out.println();
-		System.out.println("--- tama.playToyを呼び出す ---");
+		System.out.println("--- tama.playToy(\"ボール\")を呼び出す ---");
 		tama.playToy("ボール");
 		
 		System.out.println();
